@@ -1,0 +1,22 @@
+ class Student{
+    private int age=11;
+   private String name="Arham";
+    public void setData(){
+        age=10;
+        name="Addu";
+        System.out.println(age+" "+name);
+    }
+    public void print(){
+        System.out.println(age+" "+name);
+    }
+
+ }
+public class Main{
+    public static void main(String []args){
+    Student obj=new Student();
+  //  obj.age;
+    //obj.name;
+    
+    obj.print();
+    obj.setData();
+}}
